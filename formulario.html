@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="./css/style.css">
+    <title>Práctica con formularios</title>
+</head>
+<body>
+    <h1>Práctica de formularios con HTML</h1>
+    <form class="contact_form" action="" method="post" name="contact_form">
+    </form>
+    <ul>
+        <li>
+             <h2>Contáctanos</h2>
+             <span class="required_notification">* Campo obligatorio</span>
+        </li>
+
+        <li>
+            <label for="name">Nombre:</label>
+            <input type="text" name="name" placeholder="tu nombre completo"/>
+            
+
+        </li>
+
+        <li>
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="nombre@algo.com"/>
+            <span class="form_hint">Formato correcto "nombre@algo.com"</span>
+        </li>
+
+        <li>
+            <label for="website">Página web:</label>
+            <input type="text" name="website" placeholder="https://sitioweb.com"/> 
+            <span class="form_hint">Formato correcto "https://algunadirección.com"</span>
+        </li>
+
+        <li>
+            <label for="message">Mensage: </label>
+            <textarea name="message" cols="40" rows="6" placeholder="escribe tu mensaje aquí"></textarea>
+        </li>
+
+        <li>
+            <button class="submit" type="submit">Enviar formulario</button>
+        </li>
+    </ul>
+    
+</body>
+</html>
