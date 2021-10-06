@@ -5,11 +5,11 @@
 }
 
 :-moz-placeholder {
-    color: blue;
+    color: rgb(94, 94, 235);
 }
  
 ::-webkit-input-placeholder {
-    color: blue;
+    color: rgb(94, 94, 235);
 }
 
 *:focus {outline: none;}
@@ -56,13 +56,13 @@ body {
 }
 
 .contact_form label {
-    width:150px;
-    margin-top: 3px;
-    display:inline-block;
-    
+    display: inline-block;
+    width: 150px;
+    margin-top: 3px;    
     padding:3px;
 }
 .contact_form input {
+    display: inline-block;
     height:20px; 
     width:220px; 
     padding:5px 8px;
@@ -124,4 +124,8 @@ button.submit:active {
     -ms-box-shadow: 0 0 10px 5px #356b0b inset;
     -o-box-shadow: 0 0 10px 5px #356b0b inset;
      
+}
+
+ul{
+    list-style-type: none;
 }
