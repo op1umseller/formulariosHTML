@@ -22,7 +22,12 @@ body {
     font-family:Georgia, Times, "Times New Roman", serif;
 
 }
-.form_hint, .required_notification {
+.form_hint {
+    font-size: 11px;
+   
+}
+
+.required_notification {
     font-size: 11px;
 }
 
@@ -56,13 +61,12 @@ body {
 }
 
 .contact_form label {
-    display: inline-block;
+    display: inline;
     width: 150px;
     margin-top: 3px;    
     padding:3px;
 }
 .contact_form input {
-    display: inline-block;
     height:20px; 
     width:220px; 
     padding:5px 8px;
@@ -85,7 +89,7 @@ body {
     border:1px solid #555; 
     box-shadow: 0 0 3px #aaa; 
 }
-/* Button Style */
+/* Estilo del boton */
 button.submit {
     background-color: #68b12f;
     background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
@@ -128,4 +132,10 @@ button.submit:active {
 
 ul{
     list-style-type: none;
+}
+
+textarea, input {
+    display: inline; 
+    align-self: baseline;
+    margin-left: 100px;
 }
